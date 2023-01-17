@@ -1,0 +1,95 @@
+/* Importações */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/* Configurações Gerais do Site */
+body{
+    margin: auto;
+    user-select: none;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Título */
+h1{
+    color: aliceblue;
+    text-align: center;
+
+}
+
+/* Botões */
+#buttons{
+    margin: auto;
+
+    
+}
+
+button{
+    cursor: pointer;
+    color: gray;
+    margin: 7px auto auto auto; 
+    width: 200px;
+    height: 50px;
+    display: flex;
+    
+}
+
+button:hover{
+    transition: 1s;
+    color: white;
+}
+
+button:active{
+    font-size: 15px;
+    
+}
+
+.whats{
+    background-color: rgb(0, 46, 0);
+    color: whitesmoke;
+
+    border: none;
+    border-radius: 10px;
+}
+
+.whats:active{
+    transition: 0.5s;
+    padding: 2px;
+}
+
+#third{
+    text-align: center;
+    
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 53);
+    color: whitesmoke;
+    user-select: none;
+    
+
+}
+
+#third:active{
+    transition: 0.5s;
+
+    padding: 3px;
+}
+
+/* Imagens */
+.imgs{
+    margin: 10px;
+}
+
+/* Labels */
+.label{
+    margin: auto;
+}
+
+/* Imagem */
+#imagem{
+    display: block;
+    margin: auto;
+}
